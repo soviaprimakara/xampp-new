@@ -8,7 +8,7 @@ RESTful API backend untuk aplikasi **Habits Bible Tracker**, dirancang dan dikem
 
 ---
 
-## 🚀 Fitur Utama
+##  Fitur Utama
 
 1. **FR-001 (Autentikasi & Keamanan)**:
    - Registrasi pengguna & login dengan enkripsi kata sandi (Bcrypt).
@@ -29,7 +29,7 @@ RESTful API backend untuk aplikasi **Habits Bible Tracker**, dirancang dan dikem
 
 ---
 
-## 📁 Struktur Direktori
+##  Struktur Direktori
 
 ```text
 backend/
@@ -123,7 +123,7 @@ npm run seed
 
 ---
 
-## 🧪 Menjalankan Automated Testing (Jest & Supertest)
+##  Menjalankan Automated Testing (Jest & Supertest)
 
 Pengujian backend ini menggunakan **`mongodb-memory-server`**, sehingga Anda dapat menjalankan test otomatis **tanpa memerlukan instalasi atau koneksi MongoDB eksternal**:
 
@@ -145,7 +145,7 @@ npm test
 
 ---
 
-## 📑 Daftar Endpoint RESTful API (Base URL: `/api/v1`)
+##  Daftar Endpoint RESTful API (Base URL: `/api/v1`)
 
 | Method | Endpoint | Auth | Deskripsi |
 |---|---|---|---|
