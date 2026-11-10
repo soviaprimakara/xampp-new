@@ -1,0 +1,29 @@
+[
+  {
+    "_id": { "$oid": "6500a1b2c3d4e5f678909abc" },
+    "user_id": { "$oid": "6500a1b2c3d4e5f678901234" },
+    "kitab": "Yohanes",
+    "pasal": 3,
+    "ayat": 16,
+    "teks_ayat": "Karena begitu besar kasih Allah akan dunia ini, sehingga Ia telah mengaruniakan Anak-Nya yang tunggal, supaya setiap orang yang percaya kepada-Nya tidak binasa, melainkan beroleh hidup yang kekal.",
+    "createdAt": { "$date": "2026-10-02T12:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6500a1b2c3d4e5f678909abd" },
+    "user_id": { "$oid": "6500a1b2c3d4e5f678901234" },
+    "kitab": "Filipi",
+    "pasal": 4,
+    "ayat": 13,
+    "teks_ayat": "Segala perkara dapat kutanggung di dalam Dia yang memberi kekuatan kepadaku.",
+    "createdAt": { "$date": "2026-10-03T14:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "6500a1b2c3d4e5f678909abe" },
+    "user_id": { "$oid": "6500a1b2c3d4e5f678901235" },
+    "kitab": "Mazmur",
+    "pasal": 23,
+    "ayat": 1,
+    "teks_ayat": "TUHAN adalah gembalaku, takkan kekurangan aku.",
+    "createdAt": { "$date": "2026-10-04T15:00:00.000Z" }
+  }
+]
