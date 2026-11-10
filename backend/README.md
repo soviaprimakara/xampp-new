@@ -106,10 +106,22 @@ JWT_EXPIRES_IN=7d
 CLIENT_URL=http://localhost:3000
 ```
 
-### 4. (Opsional) Jalankan Seeder Kitab Alkitab
+### 4. Menjalankan Inisialisasi & Seeder Database (MongoDB)
+Untuk mengisi database dengan seluruh collection, data dummy pengguna, renungan, ayat favorit, progres bacaan, serta 66 kitab Alkitab:
 ```bash
 npm run seed
 ```
+> **Akun Pengguna Default**:
+> - Email: `swastika@primakara.ac.id` | Kata Sandi: `password123` (Admin)
+> - Email: `sovia@primakara.ac.id` | Kata Sandi: `password123` (User)
+> - Email: `demo@peacemakerjoy.com` | Kata Sandi: `password123` (User)
+
+Tersedia juga file dokumen JSON siap import di folder `backend/database/` untuk MongoDB Compass:
+- `database/users.json`
+- `database/renungan.json`
+- `database/ayat_favorit.json`
+- `database/progres_bacaan.json`
+- `database/init-mongo.js` (Script pembuatan index untuk mongosh / shell)
 
 ### 5. Jalankan Server
 - Mode Development (Auto reload dengan Nodemon):
