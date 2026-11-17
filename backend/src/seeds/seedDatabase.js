@@ -1,6 +1,14 @@
 const mongoose = require('mongoose');
+const dns = require('dns');
 const dotenv = require('dotenv');
 const bcrypt = require('bcryptjs');
+
+// Gunakan Google Public DNS untuk mengatasi error querySrv ECONNREFUSED pada jaringan ISP tertentu
+try {
+  dns.setServers(['8.8.8.8', '8.8.4.4']);
+} catch (err) {
+  // abaikan jika tidak didukung environment
+}
 
 const User = require('../models/User');
 const Renungan = require('../models/Renungan');
@@ -195,3 +203,4 @@ if (require.main === module) {
 }
 
 module.exports = seedFullDatabase;
+
