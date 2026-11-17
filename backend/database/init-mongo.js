@@ -18,3 +18,4 @@ print('[Init] Membuat index untuk collection `progres_bacaan`...');
 db.progressbacaans.createIndex({ user_id: 1 }, { unique: true });
 
 print('[Init] Index database habits_bible_tracker berhasil dibuat.');
+

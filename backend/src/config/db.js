@@ -1,4 +1,12 @@
 const mongoose = require('mongoose');
+const dns = require('dns');
+
+// Gunakan Google Public DNS untuk mengatasi error querySrv ECONNREFUSED pada jaringan ISP tertentu
+try {
+  dns.setServers(['8.8.8.8', '8.8.4.4']);
+} catch (err) {
+  // abaikan jika tidak didukung environment
+}
 
 const connectDB = async () => {
   try {
